@@ -1,0 +1,12 @@
+Source: ros-rolling-soccer-marker-generation
+Section: misc
+Priority: optional
+Maintainer: ijnek <kenjibrameld@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-rolling-ament-cmake, ros-rolling-ament-cmake-gtest, ros-rolling-ament-lint-auto, ros-rolling-ament-lint-common, ros-rolling-rclcpp, ros-rolling-soccer-object-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-rolling-soccer-marker-generation
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-rolling-rclcpp, ros-rolling-soccer-object-msgs, ros-rolling-visualization-msgs, ros-rolling-ros-workspace
+Description: Generates rviz display markers from soccer msgs
