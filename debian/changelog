@@ -1,0 +1,18 @@
+ros-galactic-soccer-marker-generation (0.0.2-1focal) focal; urgency=high
+
+  * rename soccer_interfaces/soccer_vision_msgs to soccer_object_msgs
+  * Use new Ball msg, rather than Point msg
+  * add ament_cmake_gtest to package.xml
+  * Contributors: Kenji Brameld, ijnek
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 07 Jan 2022 15:00:00 -0000
+
+ros-galactic-soccer-marker-generation (0.0.1-1focal) focal; urgency=high
+
+  * fix up soccer_marker_generation, moved from naosoccer_visualization
+  * initial commit
+  * Contributors: Kenji Brameld
+
+ -- ijnek <kenjibrameld@gmail.com>  Fri, 23 Jul 2021 15:00:00 -0000
+
+
